@@ -3,6 +3,7 @@ import styled, { keyframes } from "styled-components"
 import PowerButton from "../subComponents/PowerButton"
 import LogoComponent from '../subComponents/LogoComponent'
 import SocialIcons from '../subComponents/SocialIcons'
+import Intro from '../components/Intro'
 import { NavLink } from 'react-router-dom'
 import pdf from "../assets/ArjangNewResume.pdf"
 import { motion } from 'framer-motion'
@@ -221,9 +222,8 @@ const Main = () => {
                         </motion.h2>
                     </SKILLS>
                 </BottomBar>
-
-
             </Container>
+            {click ? <Intro click={click} /> : null}
         </MainContainer>
     )
 }
