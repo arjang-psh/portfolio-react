@@ -136,15 +136,15 @@ const MySkillsPage = () => {
                             },
                             particles: {
                                 color: {
-                                    value: "#72CFFB",
+                                    value: "#ABDFEA",
                                 },
-                                links: {
-                                    color: "#72CFFB",
-                                    distance: 100,
-                                    enable: true,
-                                    opacity: 0.5,
-                                    width: 2,
-                                },
+                                // links: {
+                                //     color: "#72CFFB",
+                                //     distance: 100,
+                                //     enable: true,
+                                //     opacity: 0.5,
+                                //     width: 2,
+                                // },
                                 collisions: {
                                     enable: true,
                                 },
@@ -172,7 +172,7 @@ const MySkillsPage = () => {
                                     type: "circle",
                                 },
                                 size: {
-                                    value: { min: 1, max: 7 },
+                                    value: { min: 1, max: 5 },
                                 },
                             },
                             detectRetina: true,
