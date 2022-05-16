@@ -6,7 +6,7 @@ export const Work = [
         tags: ["html", "css", "javaScript", "bootstrap"],
 
         demo: "https://likeswave.com",
-        github: "https://github.com/arjang_psh/"
+        github: "https://github.com/arjang-psh/"
     },
     {
         id: 2,
@@ -15,7 +15,7 @@ export const Work = [
         tags: ["react", "styled-components", "framer-motion", "react-router", "react-tsparticles"],
 
         demo: "http://arjangdev.site/",
-        github: "https://github.com/arjang_psh/portfolio"
+        github: "https://github.com/arjang-psh/portfolio"
 
     },
     {
@@ -38,12 +38,12 @@ export const Work = [
 
     }, {
         id: 5,
-        name: "Todo App(React + Redux)",
-        description: "A todo app build using Redux-toolkit and framer-motion for smooth animations.",
-        tags: ["react", "redux", "framer-motion"],
+        name: "First Portfoli website",
+        description: "A dynamic and fully responsive frontend templates with HTML/CSS/JavaScript/Bootstrap. Building the website’s backend using Django and PostgreSQL.",
+        tags: ["html", "css", "javascript", "bootsrap", "django", "postgresql"],
 
-        demo: "http://react-redux-todo-app-git-main-codebucks27.vercel.app/",
-        github: "https://github.com/arjang-psh/netflix-clone"
+        demo: "https://github.com/arjang-psh/portfolio",
+        github: "https://github.com/arjang-psh/portfolio"
 
     },
     {
