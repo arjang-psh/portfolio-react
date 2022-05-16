@@ -10,7 +10,7 @@ import { motion } from 'framer-motion'
 import { YinYang } from './AllSvgs'
 
 const MainContainer = styled.div`
-background: ${props => props.theme.body};
+background: ${props => props.theme.backgraund};
 width: 100vw;
 height: 100vh;
 overflow: hidden;
@@ -139,7 +139,6 @@ const Main = () => {
                     <span>click here</span>
                 </Center>
                 <Resume to={pdf} target="_blank">
-                    {/* <h2>Resume</h2> */}
                     <motion.h2
                         initial={{
                             y: -200,
@@ -185,7 +184,7 @@ const Main = () => {
                         whileHover={{ scale: 1.1 }}
                         whileTap={{ scale: 0.9 }}
                     >
-                        Work
+                        Projects
                     </motion.h2>
                 </WORK>
                 <BottomBar>

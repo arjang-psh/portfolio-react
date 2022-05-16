@@ -4,17 +4,7 @@ import { loadFull } from "tsparticles";
 import PowerButton from '../subComponents/PowerButton';
 import SocialIcons from '../subComponents/SocialIcons';
 import LogoComponent from '../subComponents/LogoComponent';
-import styled from 'styled-components'
-
-
-const Text = styled.div`
-color: #C6F7C6;
-font-size: calc(1em + 1.5vw);
-/* background-color: beige; */
-text-align: center;
-margin-top: 400px;
-
-`
+import BigTitle from '../subComponents/BigTitlte'
 
 
 
@@ -40,11 +30,11 @@ const BolgPage = () => {
                 init={particlesInit}
                 loaded={particlesLoaded}
                 options={{
-                    // background: {
-                    //     color: {
-                    //         value: "#4B4742",
-                    //     },
-                    // },
+                    background: {
+                        color: {
+                            value: "#4B4742",
+                        },
+                    },
                     fpsLimit: 600,
                     interactivity: {
                         events: {
@@ -116,9 +106,7 @@ const BolgPage = () => {
             <PowerButton />
             <LogoComponent />
             <SocialIcons />
-            <Text>
-                <h1>Coming Soon...</h1>
-            </Text>
+            <BigTitle text="COMING SOON..." top="35%" right="15%" />
         </>
     )
 }

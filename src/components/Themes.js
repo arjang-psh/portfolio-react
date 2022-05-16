@@ -23,6 +23,6 @@ export const MyTheme = {
     text: "#DE708D",
     fontFamily: "'Source Sans Pro', sans-serif",
     textRgba: "248, 243, 146",
-    // bodyRgba: "139, 56, 114",
     bodyRgba: "75, 71, 66",
+    backgraund: "#75D1FB"
 }
