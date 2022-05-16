@@ -32,7 +32,7 @@ const BolgPage = () => {
                 options={{
                     background: {
                         color: {
-                            value: "#4B4742",
+                            value: "#000",
                         },
                     },
                     fpsLimit: 600,
@@ -60,10 +60,10 @@ const BolgPage = () => {
                     },
                     particles: {
                         color: {
-                            value: "#DE708D",
+                            value: "#FFF",
                         },
                         links: {
-                            color: "#DE708D",
+                            color: "#FFF",
                             distance: 100,
                             enable: true,
                             opacity: 0.5,

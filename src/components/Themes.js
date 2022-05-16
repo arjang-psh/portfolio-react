@@ -24,5 +24,5 @@ export const MyTheme = {
     fontFamily: "'Source Sans Pro', sans-serif",
     textRgba: "248, 243, 146",
     bodyRgba: "75, 71, 66",
-    backgraund: "#75D1FB"
+    backgraund: "#0D5669"
 }

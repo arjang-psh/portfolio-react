@@ -108,7 +108,7 @@ const MySkillsPage = () => {
                         options={{
                             background: {
                                 color: {
-                                    value: "#4B4742",
+                                    value: "#000",
                                 },
                             },
                             fpsLimit: 600,
@@ -136,14 +136,14 @@ const MySkillsPage = () => {
                             },
                             particles: {
                                 color: {
-                                    value: "#DE708D",
+                                    value: "#72CFFB",
                                 },
                                 links: {
-                                    color: "#DE708D",
+                                    color: "#72CFFB",
                                     distance: 100,
                                     enable: true,
                                     opacity: 0.5,
-                                    width: 1,
+                                    width: 2,
                                 },
                                 collisions: {
                                     enable: true,
@@ -172,7 +172,7 @@ const MySkillsPage = () => {
                                     type: "circle",
                                 },
                                 size: {
-                                    value: { min: 1, max: 5 },
+                                    value: { min: 1, max: 7 },
                                 },
                             },
                             detectRetina: true,

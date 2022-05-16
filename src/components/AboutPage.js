@@ -15,7 +15,7 @@ import astronaut from '../assets/Images/spaceman.png'
 
 
 const Box = styled.div`
-background-color: ${props => props.theme.body};
+background-color: ${props => props.theme.backgraund};
 width: 100vw;
 height:100vh;
 position: relative;
@@ -91,7 +91,7 @@ const AboutPage = () => {
                         options={{
                             background: {
                                 color: {
-                                    value: "#4B4742",
+                                    value: "#000",
                                 },
                             },
                             fpsLimit: 600,
@@ -119,15 +119,15 @@ const AboutPage = () => {
                             },
                             particles: {
                                 color: {
-                                    value: "#DE708D",
+                                    value: "#FFF",
                                 },
-                                links: {
-                                    color: "#DE708D",
-                                    distance: 100,
-                                    enable: true,
-                                    opacity: 0.5,
-                                    width: 1,
-                                },
+                                // links: {
+                                //     color: "#fff",
+                                //     distance: 100,
+                                //     enable: true,
+                                //     opacity: 0.5,
+                                //     width: 1,
+                                // },
                                 collisions: {
                                     enable: true,
                                 },
@@ -138,7 +138,7 @@ const AboutPage = () => {
                                         default: "bounce",
                                     },
                                     random: false,
-                                    speed: 3,
+                                    speed: 2,
                                     straight: false,
                                 },
                                 number: {
@@ -149,13 +149,13 @@ const AboutPage = () => {
                                     value: 80,
                                 },
                                 opacity: {
-                                    value: 0.5,
+                                    value: 0.6,
                                 },
                                 shape: {
-                                    type: "circle",
+                                    type: "star",
                                 },
                                 size: {
-                                    value: { min: 1, max: 5 },
+                                    value: { min: 1, max: 4 },
                                 },
                             },
                             detectRetina: true,
