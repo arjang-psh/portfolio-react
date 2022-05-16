@@ -3,7 +3,7 @@ export const Work = [
         id: 1,
         name: "Social Media Growth Service Website",
         description: "Developed the project from scratch, designed website wireframe, layout, UI, and user flow model.",
-        tags: ["HTML", "CSS", "JavaScript", "Bootstrap"],
+        tags: ["html", "css", "javaScript", "bootstrap"],
 
         demo: "https://likeswave.com",
         github: "https://github.com/arjang_psh/"
@@ -12,29 +12,29 @@ export const Work = [
         id: 2,
         name: "Personal Portfolio Website",
         description: "Build a Stunning Portfolio with React JS using Styled-Components and framer-motion for awesome Animations.",
-        tags: ["React JS", "styled-components", "framer-motion", "CSS-animation", "react-router", "react-tsparticles"],
+        tags: ["react", "styled-components", "framer-motion", "react-router", "react-tsparticles"],
 
-        demo: "http://react-job-listing-website.codebucks27.vercel.app/",
-        github: "https://github.com/codebucks27/react-job-listing-website"
+        demo: "http://arjangdev.site/",
+        github: "https://github.com/arjang_psh/portfolio"
 
-    },
-    {
-        id: 3,
-        name: "Dummy LinkedIn clone",
-        description: "A fake Linked In clone using React JS Styled components and have Real-time database with Firebase's Firestore.",
-        tags: ["react", "firebase", "redux"],
-
-        demo: "http://devto-clone-codebucks27.vercel.app/",
-        github: "https://github.com/codebucks27/devto-clone"
     },
     {
         id: 4,
-        name: "Sidebar Menu",
-        description: "A cool looking sidebar menu build using ReactJS and styledComponents.It has really smooth animations.",
-        tags: ["react", "styledComponents", "react-router"],
+        name: "LinkedIn clone",
+        description: "A fake LinkedIn clone using React JS Styled components and have Real-time database with Firebase's Firestore.",
+        tags: ["react", "firebase", "redux"],
 
-        demo: "https://react-sidebar.vercel.app/",
-        github: "https://github.com/codebucks27/react-sidebar"
+        demo: "https://netflix-clone-dummy.netlify.app/",
+        github: "https://github.com/arjang-psh/linkedin-react"
+    },
+    {
+        id: 3,
+        name: "Netflix clone",
+        description: "A fake Netflix clone useing react and real API to fetch updated data.",
+        tags: ["react", "styledComponents", "react-router", "netlify"],
+
+        demo: "https://netflix-clone-dummy.netlify.app/",
+        github: "https://github.com/arjang-psh/netflix-clone"
 
     }, {
         id: 5,
@@ -43,17 +43,17 @@ export const Work = [
         tags: ["react", "redux", "framer-motion"],
 
         demo: "http://react-redux-todo-app-git-main-codebucks27.vercel.app/",
-        github: "https://github.com/codebucks27/React-Redux-Todo-App"
+        github: "https://github.com/arjang-psh/netflix-clone"
 
     },
     {
         id: 6,
-        name: "Responsive Navigation Menu",
-        description: "A reponsive navbar menu component in ReactJS with react-router functionalities. Built from scratch.",
-        tags: ["react", "react-router", "css"],
+        name: "Product Hunt",
+        description: "A website for share and discover new products.",
+        tags: ["html", "css", "javascript"],
 
-        demo: "http://react-responsive-navbar-codebucks27.vercel.app/",
-        github: "https://github.com/codebucks27/React-responsive-navbar"
+        demo: "https://netflix-clone-dummy.netlify.app/",
+        github: "https://github.com/arjang-psh/producthunt-project"
 
     },
 
