@@ -111,6 +111,11 @@ transition: all 1s ease;
     display: ${props => props.click ? 'none' : 'inline-block'};
     padding-top: 1rem;
 }
+
+span{
+    font-size: 2rem;
+    font-weight: 700;
+}
 `
 const DarkDiv = styled.div`
 position: absolute;

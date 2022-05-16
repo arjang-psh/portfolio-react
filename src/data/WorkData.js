@@ -10,9 +10,9 @@ export const Work = [
     },
     {
         id: 2,
-        name: "Job listing website",
-        description: "A Job listing website build in ReactJS. With searching and filtering functionalities.",
-        tags: ["react", "sass"],
+        name: "Personal Portfolio Website",
+        description: "Build a Stunning Portfolio with React JS using Styled-Components and framer-motion for awesome Animations.",
+        tags: ["React JS", "styled-components", "framer-motion", "CSS-animation", "react-router", "react-tsparticles"],
 
         demo: "http://react-job-listing-website.codebucks27.vercel.app/",
         github: "https://github.com/codebucks27/react-job-listing-website"
