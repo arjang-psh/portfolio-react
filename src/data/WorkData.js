@@ -3,7 +3,7 @@ export const Work = [
         id: 1,
         name: "Social Media Growth Service Website",
         description: "Developed the project from scratch, designed website wireframe, layout, UI, and user flow model.",
-        tags: ["html", "css", "javaScript", "bootstrap"],
+        tags: ["html", "css", "javaScript", "bootstrap", "django"],
 
         demo: "https://likeswave.com",
         github: "https://github.com/arjang-psh/"
@@ -19,16 +19,16 @@ export const Work = [
 
     },
     {
-        id: 4,
+        id: 3,
         name: "Netflix clone",
-        description: "A fake Netflix clone useing react and real API to fetch updated data.",
+        description: "A fake Netflix clone useing react and real API to fetch updated data from TMBD api.",
         tags: ["react", "styledComponents", "react-router", "netlify"],
 
         demo: "https://netflix-clone-dummy.netlify.app/",
         github: "https://github.com/arjang-psh/netflix-clone"
 
     }, {
-        id: 3,
+        id: 4,
         name: "LinkedIn clone",
         description: "A fake LinkedIn clone using React JS Styled components and have Real-time database with Firebase's Firestore.",
         tags: ["react", "firebase", "redux"],
