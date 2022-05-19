@@ -15,7 +15,7 @@ export const Work = [
         tags: ["react", "styled-components", "framer-motion", "react-router", "react-tsparticles"],
 
         demo: "http://arjangdev.site/",
-        github: "https://github.com/arjang-git addpsh/portfolio"
+        github: "https://github.com/arjang-git/react-portfolio"
 
     },
     {
@@ -24,7 +24,7 @@ export const Work = [
         description: "A fake Netflix clone useing react and real API to fetch updated data from TMBD api.",
         tags: ["react", "styledComponents", "react-router", "netlify"],
 
-        demo: "https://netflix-clone-dummy.netlify.app/",
+        demo: "https://arjang-netflix-clone.netlify.app/",
         github: "https://github.com/arjang-psh/netflix-clone"
 
     }, {
@@ -33,20 +33,10 @@ export const Work = [
         description: "A fake LinkedIn clone using React JS Styled components and have Real-time database with Firebase's Firestore.",
         tags: ["react", "firebase", "redux"],
 
-        demo: "https://netflix-clone-dummy.netlify.app/",
+        demo: "https://arjang-linkedin-clone.netlify.app/",
         github: "https://github.com/arjang-psh/linkedin-react"
     }, {
         id: 5,
-        name: "First Portfoli website",
-        description: "A dynamic and fully responsive frontend templates with HTML/CSS/JavaScript/Bootstrap. Building the website’s backend using Django and PostgreSQL.",
-        tags: ["html", "css", "javascript", "bootsrap", "django", "postgresql"],
-
-        demo: "https://arjang-first-portfolio.netlify.app/",
-        github: "https://github.com/arjang-psh/portfolio"
-
-    },
-    {
-        id: 6,
         name: "Product Hunt",
         description: "A website for share and discover new products.",
         tags: ["html", "css", "javascript"],
