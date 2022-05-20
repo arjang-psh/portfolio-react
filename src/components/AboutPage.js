@@ -76,14 +76,11 @@ const AboutPage = () => {
     };
     return (
         <>
-
             <ThemeProvider theme={MyTheme}>
                 <Box>
-
                     <LogoComponent theme='ligth' />
                     <SocialIcons theme='ligth' />
                     <PowerButton />
-                    {/* <ParticleComponent theme='light' /> */}
                     <Particles
                         id="tsparticles"
                         init={particlesInit}

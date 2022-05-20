@@ -106,7 +106,7 @@ const BolgPage = () => {
             <PowerButton />
             <LogoComponent />
             <SocialIcons />
-            <BigTitle text="COMING SOON..." top="35%" right="15%" />
+            <BigTitle text="COMING SOON..." top="35%" right="5%" />
         </>
     )
 }

@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import styled, { keyframes } from "styled-components"
-import PowerButton from "../subComponents/PowerButton"
 import LogoComponent from '../subComponents/LogoComponent'
 import SocialIcons from '../subComponents/SocialIcons'
 import Intro from '../components/Intro'
@@ -23,6 +22,11 @@ h2,h3,h4,h5,h6{
     font-family: 'Karla', sans-serif ;
     font-weight:500;
 }
+
+
+@media (max-width: 768px) {
+    min-height: auto;
+  }
 `
 
 const Container = styled.div`
@@ -224,7 +228,6 @@ const Main = () => {
             />
             <DarkDiv click={click} />
             <Container>
-                <PowerButton />
                 <LogoComponent theme={click ? 'dark' : 'light'} />
                 <SocialIcons theme={click ? 'dark' : 'light'} />
                 <Center click={click}>

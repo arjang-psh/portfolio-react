@@ -104,8 +104,8 @@ const WorkPage = () => {
       <ThemeProvider theme={MyTheme}>
         <Box>
 
-          <LogoComponent theme='dark' />
-          <SocialIcons theme='dark' />
+          <LogoComponent theme='ligth' />
+          <SocialIcons theme='ligth' />
           <PowerButton />
           <Particles
             id="tsparticles"

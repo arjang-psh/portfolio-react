@@ -30,6 +30,7 @@ cursor: pointer;
 
 &>*:first-child{
     text-decoration: none;
+    margin-top: 3px;
     color: #8B3872;
 }  
 `

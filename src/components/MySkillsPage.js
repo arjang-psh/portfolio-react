@@ -38,6 +38,9 @@ display: flex;
 flex-direction: column;
 justify-content: space-between;
 
+
+
+
 &:hover{
     color: ${props => props.theme.body};
     background-color: ${props => props.theme.text};
@@ -97,7 +100,6 @@ const MySkillsPage = () => {
 
             <ThemeProvider theme={MyTheme}>
                 <Box>
-
                     <LogoComponent theme='light' />
                     <SocialIcons theme='light' />
                     <PowerButton />
