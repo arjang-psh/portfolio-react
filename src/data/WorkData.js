@@ -42,8 +42,9 @@ export const Work = [
         description: "A simple Goal-Tracker application using React Js",
         tags: ["react", "css-madules"],
 
-        demo: "https://goal-trackerrr.netlify.app/",
+        demo: "https://goaltrackerrr.netlify.app/",
         github: "https://github.com/arjang-psh/goal-tracker"
+        
 
     },
 
