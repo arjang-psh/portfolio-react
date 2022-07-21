@@ -36,5 +36,15 @@ export const Work = [
         github: "https://github.com/arjang-psh/netflix-clone"
 
     },
+    {
+        id: 5,
+        name: "Goal Tracker Application",
+        description: "A simple Goal-Tracker application using React Js",
+        tags: ["react", "css-madules"],
+
+        demo: "https://goal-trackerrr.netlify.app/",
+        github: "https://github.com/arjang-psh/goal-tracker"
+
+    },
 
 ] 
