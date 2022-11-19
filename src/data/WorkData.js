@@ -14,7 +14,7 @@ export const Work = [
         description: "Build a stunning Portfolio with React Js using Styled-components and framer-motion for awesome Animations.",
         tags: ["react", "styled-components", "framer-motion", "react-router", "react-tsparticles"],
 
-        demo: "http://arjangdev.site/",
+        demo: "http://arjangdev.com/",
         github: "https://github.com/arjang-psh/portfolio-react"
 
     }, {
