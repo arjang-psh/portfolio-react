@@ -135,7 +135,7 @@ transition: height 0.5s ease, width 1s ease 0.5s;
 
 const Main = () => {
     const particlesInit = async (main) => {
-        console.log(main);
+
 
         await loadFull(main);
     };

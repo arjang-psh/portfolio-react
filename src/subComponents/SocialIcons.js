@@ -46,7 +46,7 @@ const SocialIcons = (props) => {
                 animate={{ scale: [0, 1, 1.5, 1] }}
                 transition={{ type: 'spring', duration: 1, delay: 1.4 }}
             >
-                <NavLink style={{ color: 'inherit' }} target="_blank" to={{ pathname: "https://www.linkedin.com/in/arjang-pezeshki-409156142/" }}>
+                <NavLink style={{ color: 'inherit' }} target="_blank" to={{ pathname: "https://www.linkedin.com/in/arjang-pezeshki-998590264/" }}>
                     <LinkedIn width={30} height={30} fill={props.theme === "dark" ? MyTheme.body : MyTheme.text} />
                 </NavLink>
             </motion.div>
